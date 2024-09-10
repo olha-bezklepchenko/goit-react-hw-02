@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  gap: calc((100% - 800px) / 3);
+  justify-content: start;
+  margin-bottom: 80px;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+  background-color: #45322e;
+  color: #f5f5dc;
+  box-shadow: 6px 6px 12px rgba(50, 34, 30, 0.4),
+    -6px -6px 12px rgba(255, 255, 255, 0.1);
+  transition: all 350ms linear;
+}
+
+.btn:hover {
+  background-color: #f5f5dc;
+  color: #45322e;
+}

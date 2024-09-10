@@ -1,0 +1,25 @@
+.description {
+  background: linear-gradient(145deg, #f5f5dc, #e3e3d3);
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(50, 34, 30, 0.4),
+    -6px -6px 12px rgba(255, 255, 255, 0.1);
+  margin-bottom: 80px;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  gap: 20px;
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+  color: #45322e;
+}
+
+.icon {
+  color: #45322e;
+}
+
+.text {
+  font-size: 32px;
+}

@@ -1,0 +1,18 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+
+  background: linear-gradient(145deg, #f5f5dc, #e3e3d3);
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(50, 34, 30, 0.4),
+    -6px -6px 12px rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+  padding: 20px 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.feedbackItemText {
+  font-weight: 600;
+  color: #45322e;
+}
